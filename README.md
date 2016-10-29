@@ -6,7 +6,7 @@
 * installDB: Inicializa la base de datos con anuncios y usuarios de ejemplo.
 * jshint: Comprueba la calidad de codigo.
 
-Para ejecutar estos comandos hay que escribir en el terminal: npm run <nombre del comando>
+Para ejecutar estos comandos hay que escribir en el terminal: npm run *nombre del comando*
 
 `npm run installDB`
 
