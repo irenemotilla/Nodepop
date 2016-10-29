@@ -1,0 +1,48 @@
+{
+  "anuncios": [
+    {
+      "nombre": "Bicicleta",
+      "venta": true,
+      "precio": 230.15,
+      "foto": "bici.jpg",
+      "tags": [ "lifestyle", "motor"]
+    }, {
+      "nombre": "iPhone 3GS",
+      "venta": false,
+      "precio": 50.00,
+      "foto": "iphone.png",
+      "tags": [ "lifestyle", "mobile"]
+    }, {
+      "nombre": "iPad",
+      "venta": true,
+      "precio": 500.00,
+      "foto": "iPad.jpg",
+      "tags": [ "lifestyle", "mobile"]
+    }, {
+      "nombre": "Camara de fotos",
+      "venta": true,
+      "precio": 600.00,
+      "foto": "camara.jpg",
+      "tags": [ "lifestyle", "work"]
+    }, {
+      "nombre": "Violin",
+      "venta": false,
+      "precio": 350.00,
+      "foto": "violin.jpg",
+      "tags": [ "lifestyle"]
+    }
+  ],
+
+
+  "usuarios": [
+    {
+      "nombre": "Irene",
+      "correo": "irenemotilla@gmail.com",
+      "password": 1234
+    }, {
+      "nombre": "Javi",
+      "correo": "jporry@gmail.com",
+      "password": 12345
+    } ]
+
+}

@@ -1,0 +1,8 @@
+{
+  "node": true,
+  "esnext": true,
+  "globals": {},
+  "globalstrict": true,
+  "undef": true,
+  "unused": true
+}
