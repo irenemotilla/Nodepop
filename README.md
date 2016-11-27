@@ -15,11 +15,14 @@ Para ejecutar estos comandos hay que escribir en el terminal: npm run *nombre de
 
 |      URL     | VERB |  AUTH |                            PARAMS                            |
 |:------------:|:----:|:-----:|:------------------------------------------------------------:|
-|    /users    | POST |   NO  |   body { nombre: String, correo: String, password: String}   |
-| /users/login |  GET | BASIC |                      correo and password                     |
-|     /tags    |  GET |  JWT  |                           --------                           |
-|   /anuncios  |  GET |  JWT  | queryString {tag, venta, nombre, precio, start, limit, sort} |
+|    apiv1/users    | POST |   NO  |   body { nombre: String, correo: String, password: String}   |
+| apiv1/users/login |  GET | BASIC |                      correo and password                     |
+|     apiv1/tags    |  GET |  JWT  |                           --------                           |
+|   apiv1/anuncios  |  GET |  JWT  | queryString {tag, venta, nombre, precio, start, limit, sort} |
 
+### Envio de token
+
+El token de seguridad se tiene que enviar en el header 'x-access-token'
 
 ### QueryString de anuncios
 
