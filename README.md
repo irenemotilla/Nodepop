@@ -1,5 +1,14 @@
 # NODEPOP SERVER
 
+## Practica Devops
+
+* Para acceder a la web de Start Bootstrap la IP es: 52.52.173.204
+* Para acceder a Nodepop: http://ec2-52-52-173-204.us-west-1.compute.amazonaws.com/
+
+Los archivos estaticos estan en la carpeta public, ejemplo:
+http://ec2-52-52-173-204.us-west-1.compute.amazonaws.com/images/anuncios/camara.jpg
+
+
 ## Comandos
 
 * start: Inicia el servidor
